@@ -46,4 +46,39 @@ Antes de abrir un codespace en un repositorio, puedes crear un contenedor de des
 
 1. Navega de nuevo a la **pestaña Code** de tu repositorio, haz clic en el botón desplegable **Add file**, y luego haz clic en `Crear nuevo archivo`.
 1. Escribe o pega lo siguiente en el campo de texto vacío para nombrar tu archivo.
+```
+devcontainer/devcontainer.json
+```
+En el cuerpo del nuevo archivo **.devcontainer/devcontainer.json**, agrega el siguiente contenido:
+```
+{ // Nombre de esta configuración"name": "Codespace para Skills!", "customizations": { "vscode": { "extensions": [ "GitHub.copilot" ] } } }
+```
+1. Selecciona la opción para **Confirmar directamente en la rama `main`**, y luego haz clic en el botón **Confirmar nuevo archivo**.
+1. Navega de nuevo a la página principal de tu repositorio haciendo clic en la pestaña **Code** ubicada en la parte superior izquierda de la pantalla.
+1. Haz clic en el botón **Code** ubicado en el centro de la página.
+1. Haz clic en la pestaña **Codespaces** en la caja que aparece.
+1. Haz clic en el botón **Crear codespace en main**.
 
+**Espera unos 2 minutos para que el codespace se inicie.**
+
+1. Verifica que tu codespace esté funcionando. El navegador debería mostrar un editor web de VS Code y debería haber un terminal presente como el siguiente:
+![Screen Shot 2023-03-09 at 9 09 07 AM](https://user-images.githubusercontent.com/26442605/224102962-d0222578-3f10-4566-856d-8d59f28fcf2e.png)
+1. La extensión `copilot` debería aparecer en la lista de extensiones de VS Code. Haz clic en la pestaña de barra lateral de extensiones. Deberías ver lo siguiente:
+![Screen Shot 2023-03-09 at 9 04 13 AM](https://user-images.githubusercontent.com/26442605/224102514-7d6d2f51-f435-401d-a529-7bae3ae3e511.png)
+
+**Espera unos 60 segundos y luego actualiza la página de inicio de tu repositorio para el siguiente paso.**
+
+<footer>
+
+<!--
+<<< Author notes: Footer >>>
+Agrega un enlace para obtener soporte, página de estado de GitHub, código de conducta, enlace de licencia.
+-->
+
+---
+
+Obtén ayuda: [Publica en nuestro foro de discusión](https://github.com/orgs/skills/discussions/categories/code-with-copilot) &bull; [Revisa la página de estado de GitHub](https://www.githubstatus.com/)
+
+&copy; 2023 GitHub &bull; [Código de Conducta](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [Licencia MIT](https://gh.io/mit)
+
+</footer>
